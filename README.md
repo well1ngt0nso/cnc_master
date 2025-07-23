@@ -15,16 +15,6 @@ Atualmente, o foco está em **desenhar trilhas com caneta** sobre placas de cobr
 
 ---
 
-## 🧰 Equipamentos e Materiais
-
-- **Impressora 3D:** Ender 3 V3 SE (ou similares com firmware Marlin)
-- **Firmware:** Marlin (sem alterações até o momento, pode ser outro)
-- **Ferramenta de escrita:** suporte com caneta (pode ser substituido por laser, spindle)
-- **Software G-code:** FlatCAM (geração a partir de arquivos Gerber)
-- **Superfície:** placa de cobre ou outras superfícies plana para teste
-
----
-
 ## 📁 Estrutura do Repositório
 
 - `firmware/` – Configurações Marlin (futuras alterações e upgrades CNC, pode ser outro firmware)
@@ -33,26 +23,6 @@ Atualmente, o foco está em **desenhar trilhas com caneta** sobre placas de cobr
 - `fotos/` – Imagens de testes e resultados
 - `suporte_caneta/` – STL do suporte para caneta (quando disponível)
 - `documentação/` – Guias passo a passo e tutoriais
-
----
-
-## 🖊️ Etapas Realizadas
-
-1. Geração do layout no software de PCB Eagle
-2. Exportação dos arquivos **Gerber** Eagle
-3. Importação no **FlatCAM** e geração de caminhos
-4. Exportação do **G-code compatível com Marlin** (meu caso)
-5. Execução do G-code na impressora com caneta acoplada
-
----
-
-## 📌 Status do Projeto
-
-✅ Desenho com caneta  
-✅ Suporte para caneta simples  
-🚧 Isolamento químico (a ser documentado)  
-🚧 Futuro: spindle ou laser para corte/furação  
-🚧 Futuro: ajustes de firmware específicos para CNC
 
 ---
 
